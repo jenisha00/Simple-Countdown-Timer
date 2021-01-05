@@ -9,7 +9,7 @@ const s = 1000,
     d = h * 24;
 
 //end date
-var countdownDate= new Date("Jan 1, 2021 00:00:00").getTime();
+var countdownDate= new Date("Jan 1, 2022 00:00:00").getTime();
 
 //update the count down every 1 second
 var x = setInterval(function(){
@@ -31,6 +31,6 @@ var x = setInterval(function(){
         hh.innerHTML = 00;
         mm.innerHTML = 00;
         ss.innerHTML = 00;
-        document.getElementById('message').innerHTML = "Happy New Year 2021";
+        document.getElementById('message').innerHTML = "Happy New Year 2022";
     }
 },1000);
